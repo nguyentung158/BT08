@@ -2,7 +2,9 @@
 using namespace std;
 int main(){
 char **s;
+   s = new char*;
    char foo[] = "Hello World";
+   
    *s = foo;
    printf("s is %s\n",s);
    s[0] = foo;
